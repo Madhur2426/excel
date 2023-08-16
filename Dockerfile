@@ -1,5 +1,5 @@
-# Use an official Spring Boot base image
-FROM adoptopenjdk/openjdk17:alpine-jre
+# Use an official OpenJDK base image
+FROM openjdk:17-jdk-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
