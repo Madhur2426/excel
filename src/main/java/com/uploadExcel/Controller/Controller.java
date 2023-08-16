@@ -14,6 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.uploadExcel.Entity.ExcelTable;
 import com.uploadExcel.Service.UploadImplementation;
 @CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://madhur2426.github.io")
 @RestController
 public class Controller {
 	@Autowired
